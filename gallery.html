@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style>
+         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+            body{
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+            }
+            header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: gray;
+
+            }
+            .links li{
+                display: inline-block;
+                padding: 0px 20px;
+            }
+            a{
+                color: black;
+                text-decoration: none;
+                padding: 16px;
+            } 
+            .name{
+                padding: 0px 10px 0px 0px;
+            }
+            .links li a{
+                
+                transition: all 0.6s ease 0s;
+            }
+            .links li a:hover{
+                background-color: rgb(75, 71, 71);
+                color: white;
+                transition: all 0.5s ease 0s;
+            }
+            .links a.active{
+                background-color: greenyellow;
+                
+            }
+            .grid{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-gap: 10px;
+                width: 800px;
+                margin: auto;
+                margin-top: 50px;
+            }
+            
+            img{
+                width: 300px;
+            }
+            </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                
+                <ul class="links">
+                    <li><a href="assignment.html">HOME</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="gallery.html" class="active">GALLERY</a></li>
+                    
+                </ul>
+            </nav>
+            <a href="" class="name">NandhaKishor 18CS056</a>
+        </header>
+        <div class="grid">
+            <div class="img"><img src="https://i.ibb.co/w6vbDfs/sean-oulashin-KMn4-VEe-EPR8-unsplash.jpg" alt=""></div>
+            <div class="img"><img src="https://i.ibb.co/47xCjBQ/ivana-cajina-TUXUCVXmj-Qk-unsplash.jpg" alt=""></div>
+            <div class="img"><img src="https://i.ibb.co/LhLr71L/charlotte-noelle-98-WPMl-Tl5xo-unsplash.jpg" alt=""></div>
+            <div class="img"><img src="https://i.ibb.co/frLYB8M/anete-lusina-GOZxr-Al-NIt4-unsplash.jpg" alt=""></div>
+            <div class="img"><img src="https://i.ibb.co/W6v7Y2J/joshua-earle-ICE-bo2-Vws-unsplash.jpg" alt=""></div>
+            <div class="img"><img src="https://i.ibb.co/qsB84QB/holly-mandarich-UVy-Of-X3v0-Ls-unsplash.jpg" alt=""></div>
+            <div class="img"><img src="https://i.ibb.co/JrVzg2m/christopher-burns-jbsw-GUK74-unsplash.jpg" alt=""></div>
+            <div class="img"><img src="https://i.ibb.co/cCccLSh/ishan-seefromthesky-q-E1-Y8-GQKh-Ek-unsplash.jpg" alt=""></div>
+            <div class="img"><img src="https://i.ibb.co/ZXNBMyF/dan-freeman-w-An4-Rfm-Xtx-U-unsplash.jpg" alt=""></div>
+            <div class="img"><img src="https://i.ibb.co/f2DXYdg/daniela-cuevas-t7-Yycg-Ao-VSw-unsplash.jpg" alt=""></div>
+            <div class="img"><img src="https://i.ibb.co/q76vHKp/ibrahim-rifath-Y6t-Bl0p-Te-g-unsplash.jpg" alt=""></div>
+            <div class="img"><img src="https://i.ibb.co/VQffLd4/francesca-tirico-9-G9vxs-Mzi18-unsplash.jpg" alt=""></div>
+        </div>
+    </body>
+</html>

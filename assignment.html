@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+            body{
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+            }
+            header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: gray;
+
+            }
+            .links li{
+                display: inline-block;
+                padding: 0px 20px;
+            }
+            a{
+                color: black;
+                text-decoration: none;
+                padding: 16px;
+            } 
+            .name{
+                padding: 0px 10px 0px 0px;
+            }
+            .links li a{
+                
+                transition: all 0.6s ease 0s;
+            }
+            .links li a:hover{
+                background-color: rgb(75, 71, 71);
+                color: white;
+                transition: all 0.5s ease 0s;
+            }
+            .links li a.active{
+                background-color: greenyellow;
+                
+            }
+            .login{
+                width: 300px;
+                height: 300px;
+                margin: auto;
+                margin-top: 100px;
+                box-shadow: 0px 0px 14px 6px rgb(63, 62, 62);
+                border-radius: 20px;
+            }
+            .head{
+                text-align: center;
+                background-color: 	#14a032;
+                border-radius: 20px 20px 0px 0px ;
+            }
+            label{
+                margin-left: 20px;
+                font-family: 'Roboto', sans-serif;
+                font-size: 18px;
+                font-weight: bolder;
+
+
+            }
+            input{
+                margin-left: 25px;
+                font-family: 'Roboto', sans-serif;
+                margin-top: 12px;
+                width: 200px;
+                height: 22px;
+            }
+            input:hover{
+                border: 2px solid blue;
+            }
+            .btn{
+                margin-left: 90px;
+                margin-top: 40px;
+                width: 100px;
+                height: 25px;
+                border: none;
+                background-color:rgb(68, 202, 68);
+                transition: all 0.5s ease 0s;
+                
+            }
+            .btn:hover{
+                background-color: rgb(21, 131, 21);
+            }
+          
+           
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                
+                <ul class="links">
+                    <li><a href="assignment.html" class="active">HOME</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    
+                </ul>
+            </nav>
+            <a href="" class="name">NandhaKishor 18CS056</a>
+        </header>
+        <div class="login">
+            <h1 class="head">LOG-IN</h1>
+            <form>
+                <label for="name">Username</label><br>
+                <input type="text" name="name" placeholder="Enter you username" required><br><br>
+                <label for="pwd"  style=" position: relative; top: 5px;">Password</label><br>
+                <input type="password" name="pwd" placeholder="Enter password" required><br>
+                <input type="submit" name="sub" class="btn" value="Login">
+
+            </form>
+        </div>
+    </body>
+</html>
